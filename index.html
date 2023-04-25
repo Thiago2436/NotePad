@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bloco de Notas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="notepad">
+		<div class="notepad-header">
+			<div class="notepad-title">Bloco de Notas</div>
+			<div class="notepad-buttons">
+				<button class="notepad-button" onclick="save()">Salvar</button>
+				<button class="notepad-button" onclick="clearNote()">Limpar</button>
+				<a id="download" class="notepad-button">Download</a>
+			</div>
+		</div>
+		<textarea id="note" class="notepad-textarea"></textarea>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
